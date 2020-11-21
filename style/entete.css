@@ -1,0 +1,55 @@
+header{
+	background-color:rgb(239,234,20);
+	margin:auto;
+	height: 122px;
+	border-radius:20px;
+}
+#logo{
+	display: inline-block;
+	width: 150px;
+	text-align: justify;
+	margin-left:10px;
+	margin-top:10px;
+} 
+p#logo{
+	width:80px;
+	height:80px;
+	opacity:0.35;
+
+}
+nav{
+display: inline-block;
+width: 740px;
+text-align: right;
+margin-top:50px;
+}
+nav ul{
+list-style-type: none;
+}
+nav li{
+display: inline-block;
+margin-right: 15px;
+background-color:lime;
+border-radius:10px;
+}
+nav a{
+font-size: 1.3em;
+color: #181818;
+padding-bottom: 3px;
+text-decoration: none;
+}
+nav a:hover{
+color: #760001;
+border-bottom: 3px solid #760001;
+}
+#banniere_image{
+	text-align:right;
+	height: 22px;
+	background-color:orange;
+}
+#banniere_description{
+	margin-right:100px;
+}
+td{
+	text-align:center;
+}

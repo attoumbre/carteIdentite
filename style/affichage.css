@@ -1,0 +1,17 @@
+
+
+
+
+table th,table td{
+	text-align:center;
+}
+table a{
+	text-decoration:none;
+}
+table a:hover{
+	color:lime;
+}
+table th{
+	color:blue;
+	font-style:bold;
+}

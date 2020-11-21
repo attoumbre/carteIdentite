@@ -1,0 +1,88 @@
+body{
+	background-color:lime;	
+}
+div#bloc_page{
+	width:90%;
+	background-color:white;
+	border:1px white solid;
+	margin:auto;
+}
+h2.recto,h2.verso{
+	text-align:center;
+	color:blue;
+}
+section.recto,section.verso{
+	margin:0px 70px 10px 70px ;
+	background-color:rgb(237,251,181);
+	border:2px solid rgb(237,251,181);
+	border-radius:10px/10px;
+}
+div.en_haut{
+	border:2px solid rgb(237,251,181);
+	height:60px;
+}
+.recto h3{
+	display:inline-block;
+	width:150px;
+	border: 1px solid rgb(237,251,181);
+	margin-left:20px;
+}
+.recto h2.en_haut{
+	display:inline-block;
+	border: 1px solid rgb(237,251,181);
+	margin-left:400px;
+}
+article.electeur,article.vote{
+	border: 1px solid green;
+	border-radius:10px/10px;
+}
+p.photo_electeur,p.emprunt_electeur{
+	display:inline-block;
+	width:110px;
+	height:160px;
+	border: 1px solid rgb(237,251,181);
+	margin:0px 0px 10px 20px;
+	overflow:hidden;
+	vertical-align:bottom;
+}
+div.info_electeur,div.info_vote{
+	display:inline-block;
+	border: 1px solid rgb(237,251,181);
+	margin:0px 0px 10px 40px;
+}
+/************** verso carte electeur *************/
+article.verso1{
+	display:inline-block;
+	width:300px;
+	margin:10px 0px 10px 40px;
+	border: 1px solid rgb(237,251,181);
+	vertical-align:top;
+	text-align:center;
+}
+article.verso2{
+	display:inline-block;
+	margin:10px 0px 10px 150px;
+	border: 1px solid rgb(237,251,181);
+	text-align:center;
+	width:500px;
+}
+div.tableau{
+	margin:10px 0px 10px 40px;
+	border: 1px solid rgb(237,251,181);
+	text-align:center;
+}
+p.versoimage1{
+	width:25%;
+	margin-left:180px;
+	border: 1px solid white;
+	overflow:hidden;
+	border-radius:10px/10px;
+}
+p.versoimage2{
+	width:15%;
+	margin-left:210px;
+	overflow:hidden;
+	border: 1px solid white;
+	border-radius:10px/10px;
+}
+

@@ -1,0 +1,22 @@
+body{
+	background-color:orange;
+}
+section.blanc{
+	margin:50px;
+	background-color:white;
+	width:1200px;
+	height:550px;
+	border:2px solid white;
+	border-radius:20px/20px;
+}
+aside.vert{
+	margin-left:8%;
+	margin-top:5%;
+	background-color:lime;
+	width:1000px;
+	height:400px;
+	border-radius:20px/20px;
+}
+div.vert{
+	padding:120px;
+}
