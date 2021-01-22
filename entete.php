@@ -1,28 +1,29 @@
-<!DOCTYPE html>
-<html>
+
 <head>
 <meta charset="utf-8" />
-<link rel="style/entete.css" href="#" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 <title>acceuil</title>
 </head>
-  <body>
-	<header>
-		<p id="logo"><img src="images/logo.jpg" alt="logo_cni" width=100% heigth=100% /></p>
-			<nav>
-				<ul>
-				   <li><a href="acceuil.php">ACCEUIL</a></li>
-					<li><a href='nouveau.php'>NOUVEAU </a></li>
-					<li><a href='affichage.php'>AFFICHAGE</a></li>
-					<li><a href="recherche.php">RECHERCHE</a></li>
-					<li><a href="index.php">DECONNEXION</a></li>
-				</ul>
-			</nav>
-			
-	</header>
-		<div id="banniere_image">
-		  <div id="banniere_description">
-		  
-		  </div>
-		</div>
-  </body>
-</html>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="acceuil.php">Acceuil</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="nouveau.php">Nouveau <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="affichage.php">Affichage</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="recherche.php">Recherche</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="deconnect.php" >Déconnexion</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
